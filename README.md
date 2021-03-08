@@ -8,14 +8,17 @@ First written application for Machine Learning OCR. App written to defeat Verifi
 # 1 Get Data
 Using Python to get data:
 1. `ocr_1_collect.py` download random 6 digit verification data with their file names to local.
+
 ![6digitoriginal](https://user-images.githubusercontent.com/10494709/110336140-e9f3fc00-8067-11eb-9c2d-88b3c347fde0.jpg)
-3. `ocr_2_image_process.py` because the image is always neat, split the image into 6 separate files at exact locations. Grayscale.
+2. `ocr_2_image_process.py` because the image is always neat, split the image into 6 separate files at exact locations. Grayscale.
+
 ![processedsplitgreyscale](https://user-images.githubusercontent.com/10494709/110336121-e5c7de80-8067-11eb-8c51-c40fb9521f58.jpg)
-4. `ocr_3_output.py` assort split digit files into digit folders groups.
-5. `ocr_4_matrix.py` check the grayscale color and change to 0-255 matrix.
+3. `ocr_3_output.py` assort split digit files into digit folders groups.
+4. `ocr_4_matrix.py` check the grayscale color and change to 0-255 matrix.
 
 # 2 Train data
 train data with `train.m`
+
 ![train result](https://user-images.githubusercontent.com/10494709/110336544-4eaf5680-8068-11eb-8c86-65dc9b7ad932.png)
 
 
