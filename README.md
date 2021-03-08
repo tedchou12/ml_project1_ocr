@@ -16,7 +16,9 @@ Using Python to get data:
 
 # 2 Train data
 train data with `train.m`
+![train result](https://user-images.githubusercontent.com/10494709/110336544-4eaf5680-8068-11eb-8c86-65dc9b7ad932.png)
 
 
 # 3 Validation data
 validate data by grabbing new files with 1 and do `predict.m` to find out results. Since this is a simple system, the accuracy is likely to be 100%
+
